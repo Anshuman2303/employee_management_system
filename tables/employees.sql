@@ -1,4 +1,4 @@
-
+-- HAS EMPLOYEE DETAILS
 CREATE TABLE employees (
     employee_id     NUMBER AUTOINCREMENT PRIMARY KEY,
     first_name      VARCHAR(50) NOT NULL,
