@@ -1,6 +1,6 @@
 -- Purpose: Track all salary changes for auditing.
 CREATE TABLE employees (
-    employee_id   NUMBER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    employee_id   NUMBER GENERATED ALWAYS AS IDENTITY NOCACHE PRIMARY KEY,
     first_name    VARCHAR2(50) NOT NULL,
     last_name     VARCHAR2(50),
     email         VARCHAR2(100) UNIQUE,

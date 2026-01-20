@@ -40,7 +40,7 @@ CREATE OR REPLACE PACKAGE emp_management AS
     PROCEDURE remove_employee(p_id NUMBER);
 
     -- purpose; procedure to add department
-    PROCEDURE add_department(p_id NUMBER, p_name VARCHAR2);
+    PROCEDURE add_department(p_name VARCHAR2);
 
     -- procedure to remove departmet
     PROCEDURE remove_department(p_id NUMBER);

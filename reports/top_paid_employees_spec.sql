@@ -6,7 +6,7 @@ CREATE OR REPLACE PACKAGE employee_report_pkg AS
 
     -- Displays employees of a specific department
     PROCEDURE employees_by_department (
-        p_dept_id IN employees.dept_id%TYPE
+        p_department_id IN employees.department_id%TYPE
     );
 
     -- Displays salary details of all employees
@@ -14,7 +14,7 @@ CREATE OR REPLACE PACKAGE employee_report_pkg AS
 
     -- Displays complete profile of a specific employee
     PROCEDURE employee_profile (
-        p_emp_id IN employees.emp_id%TYPE
+        p_employee_id IN employees.employee_id%TYPE
     );
 
     -- Displays employees joined in the last N days
