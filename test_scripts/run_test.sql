@@ -1,0 +1,8 @@
+SET SERVEROUTPUT ON
+BEGIN
+    run_all_tests;
+END;
+/
+
+
+SELECT *  FROM EMPLOYEES;
